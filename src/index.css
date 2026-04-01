@@ -1,0 +1,58 @@
+.nav {
+  background-color: rgb(229, 255, 0);
+  padding: 20px;
+  display: flex; /* arrange items horizontally */
+  gap: 20px; /* spacing between items */
+  align-items: center; /* vertical alignment */
+  justify-content: flex-start; /* align to the left */
+}
+
+.nav h1 {
+  font-size: 18px;
+  margin: 0;
+  cursor: pointer; /* makes it feel clickable */
+}
+.nav h1:hover {
+  color: blue; /* change color on hover */
+}
+
+.header {
+  background: linear-gradient(to right, #603ff4, #31e1ea);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.header.header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.body {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+  .body {
+    background-image: url("/assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.body h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  color: #000000;
+}
+.body:hover {
+  background-color: #fffbe6;
+  transition: background-color 0.3s ease;
+}
